@@ -1,0 +1,111 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #cdedf8;
+}
+
+#Main-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 50px 50px 25px 50px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 25px 50px 25px 50px;
+  text-align: left;
+}
+
+#introduction {
+  margin: 60px 50vw 0 50px;
+}
+
+#introduction p {
+  text-align: justify;
+}
+
+#content p {
+  text-align: justify;
+  word-wrap: none;
+}
+
+#container_header {
+  margin: 0 auto;
+}
+
+#education_container,
+#projects_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 10px 0 0 0;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+#education,
+#projects {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#projects span {
+  border: 1px solid #cdedf8;
+  padding: 10px 10px;
+}
+
+#projects span:hover {
+  cursor: pointer;
+}
+
+.certificate_container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate_logo {
+  width: 100%;
+}
