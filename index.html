@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Styles/index.css" type="text/css" />
-    <title>Document</title>
+    <title>Bokang Maropola</title>
   </head>
   <body>
+    <script src="Scripts/linkage.js">
+      /*Incase I need strong local edits*/
+    </script>
+    <style>
+      /*Incase I need strong local edits*/
+    </style>
     <div id="content">
       <div id="container">
         <img
@@ -17,7 +23,7 @@
         <h1>Bokang Maropola</h1>
         <h2>Web Developer</h2>
         <div id="introduction">
-          <h3>About Me - An aspiring Web Developer</h3>
+          <h3>About Me - An Aspiring Web Developer</h3>
           <p>
             I have always wanted to conjure a creative spirit within myself.<br />
             Starting with my love for computer technology, I learned programming
@@ -32,16 +38,17 @@
           <h2>Projects</h2>
         </div>
         <div id="projects">
-          <span id="Calculator">
-            <h3>Calculator</h3>
-            <h4><u>React based Calculator</u> &#128279;</h4>
-            <img src="./Media/Project Covers/Calculator.png" alt="Screenshot of my Calculator">
-          </span>
-          <span id="Johnny Hart">
-            <h3>Johnny Hart</h3>
-            <h4><u>Personal webpage for Johnny Hart</u> &#128279;</h4>
-            <img src="./Media/Project Covers/Johnny_Hart.png" alt="Screenshot of Johnny Hart's Website">
-          </span>
+            <span id="Calculator" onclick="openCalculator()">
+              <h3>Calculator</h3>
+              <h4><u>React based Calculator</u> &#128279;</h4>
+              <img src="./Media/Project Covers/Calculator.png" alt="Screenshot of my Calculator">
+            </span>
+            <span id="Johnny Hart" onclick="openJohnnyHart()">
+              <h3>Johnny Hart</h3>
+              <h4><u>Personal webpage for Johnny Hart</u> &#128279;</h4>
+              <img src="./Media/Project Covers/Johnny_Hart.png" alt="Screenshot of Johnny Hart's Website">
+            </span>
+          </a>
         </div>
       </div>
       <div id="education_container">
@@ -59,12 +66,12 @@
               <h4><u>Web Development</u></h4>
               <img src="./Media/Logos/sci-bono-logo.png" alt="Sci-bono logo" class="certificate_logo">
             </span>
-            <span id="SoloLearn_container" class="certificate_container">
-              <h3>SoloLearn</h3>
-              <h4><u>Web Development</u> &#128279;</h4>
-              <img src="./Media/Logos/sololearn-logo.png" alt="SoloLearn logo" class="certificate_logo">
+            <span id="SoloLearn_container" class="certificate_container certificate_container_linked" onclick="openSoloLearn()">
+                <h3>SoloLearn</h3>
+                <h4><u>Web Development</u> &#128279;</h4>
+                <img src="./Media/Logos/sololearn-logo.png" alt="SoloLearn logo" class="certificate_logo">
             </span>
-            <span id="Codecademy_container" class="certificate_container">
+            <span id="Codecademy_container" class="certificate_container certificate_container_linked" onclick="openCodecademy()">
               <h3>Codecademy</h3>
               <h4><u>React Development</u> &#128279;</h4>
               <img src="./Media/Logos/Codecademy-logo.png" alt="Codecademy logo" class="certificate_logo">
